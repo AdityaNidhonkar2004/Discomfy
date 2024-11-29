@@ -64,6 +64,7 @@
     @apply bg-background text-foreground;
   }
 }
+<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
@@ -74,3 +75,5 @@ body {
   max-width: 100%; /* Ensure it doesn't overflow the viewport */
   box-sizing: border-box; /* Include padding and borders in width calculations */
 }
+=======
+>>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8

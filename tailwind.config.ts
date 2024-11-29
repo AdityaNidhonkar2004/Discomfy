@@ -11,7 +11,11 @@ const config: Config = {
   theme: {
   	extend: {
   		container: {
+<<<<<<< HEAD
   			center: 'true',
+=======
+  			center: true,
+>>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
   			padding: '1.5rem',
   			screens: {
   				sm: '100%',
@@ -70,6 +74,7 @@ const config: Config = {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
+<<<<<<< HEAD
   		},
   		animation: {
   			grid: 'grid 15s linear infinite',
@@ -101,6 +106,8 @@ const config: Config = {
   					transform: 'translateY(calc(-100% - var(--gap)))'
   				}
   			}
+=======
+>>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
   		}
   	}
   },

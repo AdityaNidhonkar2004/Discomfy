@@ -33,7 +33,11 @@ export function Banner({
     <>
       <style type="text/css">
         {`
+<<<<<<< HEAD
           .${prefix}easy-discomfy-container {
+=======
+          .${prefix}easy-ppp-container {
+>>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
             all: revert;
             display: flex;
             flex-direction: column;
@@ -51,7 +55,11 @@ export function Banner({
             text-align: center;
           }
 
+<<<<<<< HEAD
           .${prefix}easy-discomfy-branding {
+=======
+          .${prefix}easy-ppp-branding {
+>>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
             color: inherit;
             font-size: inherit;
             display: inline-block;
@@ -60,19 +68,32 @@ export function Banner({
         `}
       </style>
 
+<<<<<<< HEAD
       <div className={`${prefix}easy-discomfy-container ${prefix}easy-discomfy-override`}>
         <span
           className={`${prefix}easy-discomfy-message ${prefix}easy-discomfy-override`}
+=======
+      <div className={`${prefix}easy-ppp-container ${prefix}easy-ppp-override`}>
+        <span
+          className={`${prefix}easy-ppp-message ${prefix}easy-ppp-override`}
+>>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
           dangerouslySetInnerHTML={{
             __html: mappedMessage,
           }}
         />
         {!canRemoveBranding && (
           <a
+<<<<<<< HEAD
             className={`${prefix}easy-discomfy-branding`}
             href={`${env.NEXT_PUBLIC_SERVER_URL}`}
           >
             Powered by Discomfy
+=======
+            className={`${prefix}easy-ppp-branding`}
+            href={`${env.NEXT_PUBLIC_SERVER_URL}`}
+          >
+            Powered by Easy PPP
+>>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
           </a>
         )}
       </div>
