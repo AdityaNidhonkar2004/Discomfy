@@ -148,10 +148,10 @@ function PricingCard({
           {maxNumberOfProducts}{" "}
           {maxNumberOfProducts === 1 ? "product" : "products"}
         </Feature>
-        <Feature>PPP discounts</Feature>
+        <Feature>Discomfy discounts</Feature>
         {canCustomizeBanner && <Feature>Banner customization</Feature>}
-        {canAccessAnalytics && <Feature>Advanced analytics</Feature>}
-        {canRemoveBranding && <Feature>Remove Easy PPP branding</Feature>}
+        {canAccessAnalytics && <Feature>Advanced analytics(Coming Soon!!)</Feature>}
+        {canRemoveBranding && <Feature>Remove Easy Discomfy branding</Feature>}
       </CardFooter>
     </Card>
   )

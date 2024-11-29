@@ -4,21 +4,21 @@ import Link from "next/link"
 
 export function NavBar() {
   return (
-    <header className="flex py-6 shadow-xl fixed top-0 w-full z-10 bg-background/95">
-      <nav className="flex items-center gap-10 container font-semibold">
-        <Link href="/" className="mr-auto">
+    <header className="flex py-12 md:py-6 shadow-xl  md:top-0 w-[130vh] md:w-full md:z-100 bg-white">
+      <nav className="flex justify-end md:items-center gap-4 md:gap-10 md:container font-semibold">
+        <Link href="/" className="ml-5 md:ml-0  mr-32 md:mr-auto">
           <BrandLogo />
         </Link>
-        <Link className="text-lg" href="#">
+        <Link className="text-2xl  md:text-lg" href="/#features">
           Features
         </Link>
-        <Link className="text-lg" href="/#pricing">
+        <Link className="text-2xl  md:text-lg" href="/#pricing">
           Pricing
         </Link>
-        <Link className="text-lg" href="#">
+        <Link className="text-2xl  md:text-lg" href="/Demo">
           About
         </Link>
-        <span className="text-lg">
+        <span className="text-2xl  md:text-lg">
           <SignedIn>
             <Link href="/dashboard">Dashboard</Link>
           </SignedIn>

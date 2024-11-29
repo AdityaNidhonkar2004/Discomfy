@@ -64,3 +64,13 @@
     @apply bg-background text-foreground;
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.container {
+  max-width: 100%; /* Ensure it doesn't overflow the viewport */
+  box-sizing: border-box; /* Include padding and borders in width calculations */
+}

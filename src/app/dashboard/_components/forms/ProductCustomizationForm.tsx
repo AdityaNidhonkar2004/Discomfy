@@ -98,7 +98,7 @@ export function ProductCustomizationForm({
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>
-                    PPP Discount Message
+                    Discomfy Discount Message
                     <RequiredLabelIcon />
                   </FormLabel>
                   <FormControl>

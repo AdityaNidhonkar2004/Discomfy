@@ -33,7 +33,7 @@ export function Banner({
     <>
       <style type="text/css">
         {`
-          .${prefix}easy-ppp-container {
+          .${prefix}easy-discomfy-container {
             all: revert;
             display: flex;
             flex-direction: column;
@@ -51,7 +51,7 @@ export function Banner({
             text-align: center;
           }
 
-          .${prefix}easy-ppp-branding {
+          .${prefix}easy-discomfy-branding {
             color: inherit;
             font-size: inherit;
             display: inline-block;
@@ -60,19 +60,19 @@ export function Banner({
         `}
       </style>
 
-      <div className={`${prefix}easy-ppp-container ${prefix}easy-ppp-override`}>
+      <div className={`${prefix}easy-discomfy-container ${prefix}easy-discomfy-override`}>
         <span
-          className={`${prefix}easy-ppp-message ${prefix}easy-ppp-override`}
+          className={`${prefix}easy-discomfy-message ${prefix}easy-discomfy-override`}
           dangerouslySetInnerHTML={{
             __html: mappedMessage,
           }}
         />
         {!canRemoveBranding && (
           <a
-            className={`${prefix}easy-ppp-branding`}
+            className={`${prefix}easy-discomfy-branding`}
             href={`${env.NEXT_PUBLIC_SERVER_URL}`}
           >
-            Powered by Easy PPP
+            Powered by Discomfy
           </a>
         )}
       </div>
