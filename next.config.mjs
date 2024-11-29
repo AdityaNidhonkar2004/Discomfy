@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    staleTimes: {
-      dynamic: 0,
-    },
-  },
-  distDir: 'build',  
+  reactStrictMode: true,
 }
 
-export default nextConfig
+export default nextConfig;
