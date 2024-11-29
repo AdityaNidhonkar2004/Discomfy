@@ -1,8 +1,25 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
-  "rules":{
-    "react/mo-unescaped-entities":"off",
+  "rules": {
+    // Disable warnings for unescaped entities in JSX (e.g., quotes/apostrophes)
+    "react/no-unescaped-entities": "off",
+
+    // Warn for unused variables, but allow those prefixed with "_"
     "@typescript-eslint/no-unused-vars": ["warn", { "varsIgnorePattern": "^_" }],
-    "@typescript-eslint/no-explicit-any": "warn"
+
+    // Warn for explicit "any" usage to encourage type safety
+    "@typescript-eslint/no-explicit-any": "warn",
+
+    // Add rules for consistent React Hooks dependency tracking
+    "react-hooks/exhaustive-deps": "warn",
+
+    // Customize ESLint's preference for using function components
+    "react/function-component-definition": [
+      "warn",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ]
   }
 }

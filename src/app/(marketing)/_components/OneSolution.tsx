@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import holidayImage from "../../../components/Holiday-Image.png"
 import dashBoardImage from "../../../components/dashBoardImage.png"
@@ -6,6 +5,7 @@ import GlobeDiscount from "../../../components/Globe-Discount-image.png";
 import NoCode from "../../../components/NoCodeImage.png";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 const OneSolution = () => {
   return (
     <div className="cursor-pointer">
@@ -25,8 +25,8 @@ const OneSolution = () => {
               </p>
             </div>
             <Image
+              alt="holidayImage"
               src={holidayImage}
-              alt-="holidayImage"
               className="flex w-[400px] h-[200px] mt-7"
             />
           </div>
@@ -52,7 +52,7 @@ const OneSolution = () => {
             </div>
             <Image
               src={GlobeDiscount}
-              alt-="holidayImage"
+              alt="holidayImage"
               className="flex justify-center w-[300px]  h-[230px]"
             />
           </div>
@@ -79,7 +79,7 @@ const OneSolution = () => {
             </div>
             <Image
               src={dashBoardImage}
-              alt-="holidayImage"
+              alt="holidayImage"
               className="flex justify-center w-[300px]  h-[230px]"
             />
           </div>
@@ -104,7 +104,7 @@ const OneSolution = () => {
             </div>
             <Image
               src={NoCode}
-              alt-="holidayImage"
+              alt="holidayImage"
               className="flex justify-center w-[300px]  h-[230px]"
             />
           </div>
