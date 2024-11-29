@@ -5,7 +5,7 @@ const nextConfig = {
       dynamic: 0,
     },
   },
-  distDir: 'build',  // Custom build output directory
+  distDir: 'build',  
 }
 
 export default nextConfig
