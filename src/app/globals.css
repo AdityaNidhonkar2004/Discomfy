@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -15,7 +16,7 @@
     --secondary-foreground: 240 5.9% 10%;
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
-    --accent: 913 82% 31%;
+    --accent: 210 82% 31%; /* Corrected hue value */
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
@@ -56,24 +57,8 @@
     --chart-5: 340 75% 55%;
   }
 }
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-<<<<<<< HEAD
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-}
+
 .container {
   max-width: 100%; /* Ensure it doesn't overflow the viewport */
   box-sizing: border-box; /* Include padding and borders in width calculations */
 }
-=======
->>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8

@@ -29,22 +29,15 @@
     "@radix-ui/react-switch": "^1.1.0",
     "@radix-ui/react-tabs": "^1.1.0",
     "@radix-ui/react-toast": "^1.2.1",
-<<<<<<< HEAD
     "@react-three/drei": "^9.117.3",
     "@react-three/fiber": "^8.17.10",
-    "@t3-oss/env-nextjs": "^0.11.1",
     "@tabler/icons-react": "^3.22.0",
-=======
     "@t3-oss/env-nextjs": "^0.11.1",
->>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "date-fns": "^4.0.0",
     "drizzle-orm": "^0.33.0",
-<<<<<<< HEAD
     "framer-motion": "^11.12.0",
-=======
->>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
     "lucide-react": "^0.441.0",
     "next": "14.2.11",
     "react": "^18",
@@ -54,15 +47,10 @@
     "recharts": "^2.12.7",
     "stripe": "^16.11.0",
     "svix": "^1.34.0",
-<<<<<<< HEAD
-    "tailwind-merge": "^2.5.5",
-    "tailwindcss-animate": "^1.0.7",
     "three": "^0.170.0",
     "three-globe": "^2.35.2",
-=======
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
->>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
     "zod": "^3.23.8"
   },
   "devDependencies": {

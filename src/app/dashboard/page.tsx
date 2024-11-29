@@ -5,18 +5,6 @@ import Link from "next/link"
 import { ArrowRightIcon, PlusIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ProductGrid } from "./_components/ProductGrid"
-<<<<<<< HEAD
-=======
-import { HasPermission } from "@/components/HasPermission"
-import { canAccessAnalytics } from "@/server/permissions"
-import {
-  CHART_INTERVALS,
-  getViewsByDayChartData,
-} from "@/server/db/productViews"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ViewsByDayChart } from "./_components/charts/ViewsByDayChart"
-
->>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
 export default async function DashboardPage() {
   const { userId, redirectToSignIn } = auth()
   if (userId == null) return redirectToSignIn()
@@ -43,43 +31,6 @@ export default async function DashboardPage() {
         </Button>
       </h2>
       <ProductGrid products={products} />
-<<<<<<< HEAD
     </>
   )
 }
-=======
-      <h2 className="mb-6 text-3xl font-semibold flex justify-between mt-12">
-        <Link
-          href="/dashboard/analytics"
-          className="flex gap-2 items-center hover:underline group"
-        >
-          Analytics
-          <ArrowRightIcon className="group-hover:translate-x-1 transition-transform" />
-        </Link>
-      </h2>
-      <HasPermission permission={canAccessAnalytics} renderFallback>
-        <AnalyticsChart userId={userId} />
-      </HasPermission>
-    </>
-  )
-}
-
-async function AnalyticsChart({ userId }: { userId: string }) {
-  const chartData = await getViewsByDayChartData({
-    userId,
-    interval: CHART_INTERVALS.last30Days,
-    timezone: "UTC",
-  })
-
-  return (
-    <Card>
-      <CardHeader>
-        <CardTitle>Views by Day</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <ViewsByDayChart chartData={chartData} />
-      </CardContent>
-    </Card>
-  )
-}
->>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8

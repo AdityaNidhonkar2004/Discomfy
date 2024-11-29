@@ -73,12 +73,9 @@ export function ProductCard({
                   <DialogTrigger asChild>
                     <DropdownMenuItem>Add To Site</DropdownMenuItem>
                   </DialogTrigger>
-<<<<<<< HEAD
                   <DropdownMenuItem asChild>
                     <a href={url} target="_blank">View product</a>
                   </DropdownMenuItem>
-=======
->>>>>>> 3cf77f1a6222f6eb12d9995ae36d28b27e65b4e8
                   <DropdownMenuSeparator />
                   <AlertDialogTrigger asChild>
                     <DropdownMenuItem>Delete</DropdownMenuItem>
