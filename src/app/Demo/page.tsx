@@ -14,7 +14,8 @@ const page = () => {
     <section id='steps' className='w-[130vh] md:w-screen'>
       <Steps/>
     </section>
-    <div className=' w-[130vh] md:w-screen border border-black  md:mx-60 my-20 rounded-xl'>
+    <div className='md:flex md:justify-center'>
+    <div className='w-[130vh] md:w-screen mt-20 rounded-xl bg-slate-100 p-1'>
       <h1 className='font-bold text-4xl mt-10 mb-2 flex justify-center'>Get Started with Discomfy</h1>
       <h1 className='font-bold text-4xl mb-5 flex justify-center'>1st product is on us</h1>
     <div className="my-10 flex justify-center">
@@ -25,8 +26,7 @@ const page = () => {
       </SignUpButton>
       </div>
     </div>
-
-
+    </div>
     </div>
   )
 }
