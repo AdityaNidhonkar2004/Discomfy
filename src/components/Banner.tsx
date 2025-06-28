@@ -67,7 +67,7 @@ export function Banner({
             __html: mappedMessage,
           }}
         />
-        {!canRemoveBranding && (
+        {(
           <a
             className={`${prefix}easy-discomfy-branding`}
             href={`${env.NEXT_PUBLIC_SERVER_URL}`}

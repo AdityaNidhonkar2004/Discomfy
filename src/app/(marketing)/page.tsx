@@ -23,7 +23,7 @@ import OneSolution from "./_components/OneSolution"
 
 export default function HomePage() {
   return (
-    <>
+    <div className=" md:overflow-x-hidden">
      <section className='w-[130vh] md:w-screen min-h-screen'>
       <HeroBackground/>
     </section>
@@ -81,7 +81,7 @@ export default function HomePage() {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   )
 }
 

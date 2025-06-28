@@ -7,7 +7,7 @@ import { ArrowRightIcon } from 'lucide-react'
 
 const page = () => {
   return (
-    <>
+    <div className='md:overflow-x-hidden'>
     <section className='bg-[#ECEEFB] w-[130vh] md:w-screen md:min-h-screen'>
       <HeroSection/>
     </section>
@@ -27,7 +27,7 @@ const page = () => {
     </div>
 
 
-    </>
+    </div>
   )
 }
 

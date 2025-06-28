@@ -442,7 +442,7 @@ export function WhatWeDo() {
 
       {/* Cards */}
       <div className="absolute top-5 -left-10 md:left-10  cursor-pointer md:my-5">
-        <div className="p-6 bg-blue-600 rounded-lg shadow-lg max-w-sm text-center hover:scale-105 duration-150">
+        <div className="p-6 bg-blue-400 rounded-lg shadow-lg max-w-sm text-center hover:scale-105 duration-150">
           <div className="flex justify-center">
           <h3 className="flex text-2xl font-bold text-black dark:text-white mb-2">
           Boost Revenue
@@ -456,7 +456,7 @@ export function WhatWeDo() {
         </div>
       </div>
       <div className="absolute top-5 -right-10 md:right-40 cursor-pointer">
-        <div className="bg-blue-600 dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:scale-105 duration-100">
+        <div className="bg-blue-400 dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:scale-105 duration-100">
           <div className="flex justify-center">
           <h3 className="text-2xl font-bold text-black dark:text-white mb-2">
           Zero Code Needed
@@ -470,7 +470,7 @@ export function WhatWeDo() {
         </div>
       </div>
       <div className="absolute  -left-10 bottom-20 md:left-10 cursor-pointer">
-        <div className="bg-blue-600 dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:scale-105 duration-100">
+        <div className="bg-blue-400 dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:scale-105 duration-100">
           <div className="flex justify-center">
           <h3 className="text-2xl font-bold text-black dark:text-white mb-2">
           Unified Dashboard
@@ -484,7 +484,7 @@ export function WhatWeDo() {
         </div>
       </div>
       <div className="absolute -right-10 bottom-20 md:right-10">
-        <div className="bg-blue-600 dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:scale-105 duration-100">
+        <div className="bg-blue-400 dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:scale-105 duration-100">
           <div className="flex justify-center text-black">
           <h3 className="text-2xl font-bold  mb-2">
             Global Reach

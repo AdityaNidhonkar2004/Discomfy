@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 const HeroSection = () => {
   return (
-    <section className='md:flex md:justify-evenly md:p-20 pt-20'>
-        <Link href={"/"} ><ArrowLeft className="size-16 md:size-10 ml-5 md:ml-10 hover:bg-purple-200 rounded-full"/></Link>
+    <section className='md:flex md:justify-evenly md:p-20 pt-20 overflow-x-hidden'>
+        <Link href={"/"} ><ArrowLeft className="size-16 md:size-10 ml-5 md:ml-10 hover:scale-125 duration-150 rounded-full"/></Link>
         <div className='mt-20 md:mt-48'> 
         <header className='flex items-center text-8xl md:text-6xl font-bold mx-10'>
         Activate localized pricing with Discomfy
@@ -20,7 +20,7 @@ const HeroSection = () => {
         </button>
         </Link>
         </div>
-          <Image src={discountGif} alt='DiscountImage' className='ml-64 md:ml-0'></Image>
+          <Image src={discountGif} alt='DiscountImage' className='ml-64 md:ml-0 object-contain'></Image>
     </section>
   )
 }
