@@ -11,7 +11,7 @@ export function NavBar() {
         </Link>
         <Link href="/" className="font-semibold text-lg">Home</Link>
         <Link href="/dashboard/products" className="font-semibold text-lg">Products</Link>
-        <Link href="/dashboard/analytics" className="font-semibold text-lg cursor-not-allowed text-gray-400">Analytics</Link>
+{/*         <Link href="/dashboard/analytics" className="font-semibold text-lg cursor-not-allowed text-gray-400">Analytics</Link> */}
         <Link href="/dashboard/subscription" className="font-semibold text-lg">Subscription</Link>
         <UserButton />
       </nav>
